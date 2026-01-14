@@ -12,7 +12,7 @@ class BibliosFunctionalTest extends WebTestCase
 {
     public function testFixturesDataArePresent(): void
     {
-        // BOOT DU KERNEL (OBLIGATOIRE)
+        
         $client = static::createClient();
 
         /** @var EntityManagerInterface $em */

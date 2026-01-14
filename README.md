@@ -1,4 +1,4 @@
-# ECF – Ibtissam Hamdi
+Ecf biblios
 
 ## Description
 
@@ -6,7 +6,7 @@ Projet réalisé dans le cadre de l’ECF.
 Application Symfony avec des tests unitaires et fonctionnels.
 
 ## Prérequis
-- PHP 8.x
+- PHP  8.2.12
 - Composer
 - MySQL
 

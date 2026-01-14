@@ -24,14 +24,14 @@ class BookTest extends TestCase
         $book = new Book();
         $author = new Author();
 
-        // Cas 1 : relation ManyToOne (Livre -> Auteur)
+        
         if (method_exists($book, 'setAuthor') && method_exists($book, 'getAuthor')) {
             $book->setAuthor($author);
             $this->assertSame($author, $book->getAuthor());
             return;
         }
 
-        // Cas 2 : relation ManyToMany (Livre <-> Auteurs)
+        
         if (method_exists($book, 'addAuthor') && method_exists($book, 'getAuthors')) {
             $book->addAuthor($author);
 
